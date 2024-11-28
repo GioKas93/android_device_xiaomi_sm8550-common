@@ -100,6 +100,12 @@ function blob_fixup() {
         vendor/lib64/vendor.libdpmframework.so)
             "${PATCHELF}" --add-needed "libhidlbase_shim.so" "${2}"
             ;;
+        vendor/lib64/libqcodec2_core.so)
+            grep -q "qcodec2_shim.so" "${2}" || "${PATCHELF}" --add-needed "qcodec2_shim.so" "${2}"
+            ;;
+        *)
+            return 1
+            ;;
     esac
 }
 
