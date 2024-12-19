@@ -1986,7 +1986,6 @@ vendor/etc/init/vendor.qti.secure_element@1.2-service.rc
 vendor/lib64/android.hardware.secure_element@1.0-impl.so
 vendor/lib64/libesepmconfig.so
 vendor/lib64/libesesbprovision.so
-vendor/lib64/ls_nq_client.so
 vendor/lib64/libvui_dmgr.so
 vendor/lib64/libvui_dmgr_client.so
 vendor/lib64/se_nq_extn_client.so
