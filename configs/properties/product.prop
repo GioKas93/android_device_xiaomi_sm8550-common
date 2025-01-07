@@ -15,6 +15,7 @@ audio.offload.video=true
 audio.sys.mute.latency.factor=2
 audio.sys.noisy.broadcast.delay=500
 audio.sys.offload.pstimeout.secs=3
+persist.audio.button_jack.profile=volume
 audio.sys.routing.latency=0
 media.stagefright.audio.deep=false
 ro.af.client_heap_size_kbyte=7168
