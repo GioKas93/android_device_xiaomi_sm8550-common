@@ -97,7 +97,6 @@ TARGET_RECOVERY_DEVICE_MODULES := libinit_xiaomi_sm8550
 # Kernel
 BOARD_BOOTCONFIG := \
     androidboot.hardware=qcom \
-    androidboot.memcg=1 \
     androidboot.init_fatal_reboot_target=recovery \
     androidboot.usbcontroller=a600000.dwc3
 
