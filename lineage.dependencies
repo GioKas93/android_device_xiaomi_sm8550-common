@@ -4,33 +4,31 @@
       "repository":"GioKas93/android_hardware_qcom-caf_sm8550_gps",
       "target_path":"hardware/qcom-caf/sm8550/gps",
       "branch":"uvite-8550"
-   },
-   {
+   }
+{
       "remote":"github",
       "repository":"GioKas93/android_hardware_xiaomi",
       "target_path":"hardware/xiaomi",
       "branch":"vic"
-   },
-   {
+   }
+{
       "remote":"github",
       "repository":"GioKas93/android_device_xiaomi_vermeer-kernel",
       "target_path":"deivce/xiaomi/vermeer-kernel",
       "branch":"vic"
-   },
-   {
+   }
+{
       "remote":"github",
       "repository":"GioKas93/proprietary_vendor_xiaomi",
       "target_path":"vendor/xiaomi",
       "branch":"vic"
    }
-
-  {
+{
       "remote":"github",
       "repository":"GioKas93/android_device_xiaomi_sepolicy",
       "target_path":"device/xiaomi/sepolicy",
       "branch":"vic"
    }
-
 {
       "remote":"gitlab",
       "repository":"ThankYouMario/proprietary_vendor_xiaomi_camera",
@@ -47,6 +45,12 @@
       "remote":"github",
       "repository":"GioKas93/android_device_qcom_sepolicy_vndr",
       "target_path":"device/qcom/sepolicy_vndr/sm8550",
+      "branch":"vic"
+   }
+{
+      "remote":"github",
+      "repository":"GioKas93/android_hardware_qcom_media",
+      "target_path":"hardware/qcom-caf/sm8550/media",
       "branch":"vic"
    }
 
