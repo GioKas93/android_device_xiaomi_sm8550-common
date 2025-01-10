@@ -9,38 +9,45 @@
       "remote":"github",
       "repository":"GioKas93/android_hardware_xiaomi",
       "target_path":"hardware/xiaomi",
-      "branch":"uvite"
+      "branch":"vic"
    },
    {
       "remote":"github",
       "repository":"GioKas93/android_device_xiaomi_vermeer-kernel",
       "target_path":"deivce/xiaomi/vermeer-kernel",
-      "branch":"uvite"
+      "branch":"vic"
    },
    {
       "remote":"github",
       "repository":"GioKas93/proprietary_vendor_xiaomi",
       "target_path":"vendor/xiaomi",
-      "branch":"lineage-21"
+      "branch":"vic"
    }
 
   {
       "remote":"github",
       "repository":"GioKas93/android_device_xiaomi_sepolicy",
       "target_path":"device/xiaomi/sepolicy",
-      "branch":"uvite"
+      "branch":"vic"
    }
 
 {
       "remote":"gitlab",
       "repository":"ThankYouMario/proprietary_vendor_xiaomi_camera",
       "target_path":"vendor/xiaomi/camera",
-      "branch":"uvite-sm8550"
+      "branch":"vauxite-sm8550"
    }
 {
       "remote":"github",
       "repository":"GioKas93/android_system_qcom",
       "target_path":"system/qcom",
-      "branch":"lineage-21"
+      "branch":"lineage-22.1"
    }
+{
+      "remote":"github",
+      "repository":"GioKas93/android_device_qcom_sepolicy_vndr",
+      "target_path":"device/qcom/sepolicy_vndr/sm8550",
+      "branch":"vic"
+   }
+
 ]
