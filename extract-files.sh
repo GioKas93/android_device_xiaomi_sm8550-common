@@ -79,6 +79,10 @@ function blob_fixup() {
             [ "$2" = "" ] && return 0
             sed -i 's/<?xml=/<?xml /g' "${2}"
             ;;
+        vendor/bin/init.qti.media.sh)
+            [ "$2" = "" ] && return 0
+            sed -i "s#build_codename -le \"14\"#build_codename -le \"15\"#" "${2}"
+            ;;
         odm/lib64/hw/displayfeature.default.so)
             [ "$2" = "" ] && return 0
             "${PATCHELF}" --replace-needed "libstagefright_foundation.so" "libstagefright_foundation-v33.so" "${2}"
