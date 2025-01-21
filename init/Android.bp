@@ -84,6 +84,12 @@ sh_binary {
     vendor: true,
 }
 
+sh_binary {
+    name: "init.kernel.post_boot-kalama.sh",
+    src: "init.kernel.post_boot-kalama.sh",
+    vendor: "true",
+}
+
 cc_library_static {
     name: "libinit_xiaomi_sm8550",
     srcs: ["init_xiaomi8550.cpp"],
