@@ -106,4 +106,7 @@
 
     <!-- Type of the udfps long press sensor. Empty if long press is not supported. -->
     <string name="config_dozeUdfpsLongPressSensorType" translatable="false">co.aospa.sensor.udfps</string>
+
+    <!-- See AmbientSensor.AmbientColorTemperatureSensor. The ambient color temperature sensor name. -->
+     <string name="config_displayWhiteBalanceColorTemperatureSensorName">com.google.sensor.color</string>
 </resources>
