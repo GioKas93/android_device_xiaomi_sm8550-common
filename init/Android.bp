@@ -87,7 +87,7 @@ sh_binary {
 sh_binary {
     name: "init.kernel.post_boot-kalama.sh",
     src: "init.kernel.post_boot-kalama.sh",
-    vendor: "true",
+    vendor: true,
 }
 
 cc_library_static {
