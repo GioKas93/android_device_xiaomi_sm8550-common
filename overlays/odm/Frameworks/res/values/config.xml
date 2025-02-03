@@ -93,11 +93,6 @@
     <!-- If device supports pickup/lift gesture -->
     <bool name="config_dozePulsePickup">true</bool>
 
-    <!-- Enables or disables haptic effect when the text insertion/selection handle is moved
-         manually by the user. Off by default, since the expected haptic feedback may not be
-         available on some devices. -->
-    <bool name="config_enableHapticTextHandle">true</bool>
-
     <!-- Type of the tap sensor. Empty if tap is not supported. -->
     <string name="config_dozeTapSensorType" translatable="false">co.aospa.sensor.single_tap</string>
 
