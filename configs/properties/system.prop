@@ -1,3 +1,6 @@
+# Disable vsync for cpu rendered apps
+debug.cpurend.vsync=false
+
 # Media
 media.aac_51_output_enabled=true
 media.settings.xml=/vendor/etc/media_profiles_kalama.xml
